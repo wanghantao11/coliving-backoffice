@@ -1,0 +1,19 @@
+entity: Application
+items:
+  applications{1..10}:
+    iduser: "@user($current)"
+    facade_id: "@projectFacade1"
+    client_id: "@client2"
+
+  applications{11..15}:
+    iduser: "@user($current+10)"
+    facade_id: "@projectFacade1"
+    client_id: "@client2"
+  applications{16..25}:
+    iduser: "@user($current+5)"
+    facade_id: "@projectFacade2"
+    client_id: "@client2"
+  applications{26..30}:
+    iduser: "@user($current)"
+    facade_id: "@projectFacade3"
+    client_id: "@client2"

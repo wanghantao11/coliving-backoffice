@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for backoffice_backend/src/application/services/userPreferences.service.ts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">backoffice_backend/src/application/services</a> userPreferences.service.ts
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">20.69% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>12/58</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/28</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">17.86% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>10/56</span>
+      </div>
+    </div>
+    <p class="quiet">
+      Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+    </p>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import 'reflect-metadata'
+import { inject, injectable } from 'inversify'
+import * as uuid from 'uuid/v4'
+&nbsp;
+import { UserPreferencesDao, UserPreferredRoommatesDao, UserDao, TransactionDao, OfferDao } from './../../domain/dao'
+import { UserPreferences, User, UserPreferredRoommates, Offer } from './../../domain/entity/'
+import { emailAxiosPost, sendCallbackAutoReplyEmail } from './../../infrastructure/utils/email'
+import { signShareRoomInvitation } from './../auth/jwt/service'
+import { isUserCandidateOrTenant } from '../../infrastructure/utils/user'
+import { formatEmail } from '../../infrastructure/utils/common'
+import { OFFER_STATUS, USER_TYPE } from '../../infrastructure/constants'
+&nbsp;
+@injectable()
+export class UserPreferencesService {
+<span class="fstat-no" title="function not covered" >  constructor(</span>
+    @inject('UserDao') private <span class="cstat-no" title="statement not covered" >userDao: UserDao,</span>
+    @inject('UserPreferencesDao') private <span class="cstat-no" title="statement not covered" >userPreferencesDao: UserPreferencesDao,</span>
+    @inject('UserPreferredRoommatesDao') private <span class="cstat-no" title="statement not covered" >userPreferredRoommatesDao: UserPreferredRoommatesDao,</span>
+    @inject('TransactionDao') private <span class="cstat-no" title="statement not covered" >transactionDao: TransactionDao,</span>
+    @inject('OfferDao') private <span class="cstat-no" title="statement not covered" >offerDao: OfferDao</span>
+  ) {}
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >createUserPreferences = <span class="fstat-no" title="function not covered" >(p</span>references: Partial&lt;UserPreferences&gt;) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userPreferencesDao.createUserPreferences(preferences)</span>
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >getUserPreferences = <span class="fstat-no" title="function not covered" >(i</span>duser: string) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userDao.getUserBy({ iduser })</span>
+      .then(<span class="fstat-no" title="function not covered" >({</span> user_key }) =&gt; <span class="cstat-no" title="statement not covered" >this.userPreferencesDao.getUserPreferences(user_key)</span>
+        .then(<span class="fstat-no" title="function not covered" >userPreferences </span>=&gt; <span class="cstat-no" title="statement not covered" >!userPreferences</span>
+          ? this.userPreferencesDao.createUserPreferences({ iduser: user_key, locations: [] })
+          : userPreferences))
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >updateUserPreferences = <span class="fstat-no" title="function not covered" >(i</span>duser: string, data: Partial&lt;UserPreferences&gt;) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userDao.getUserBy({ iduser })</span>
+      .then(<span class="fstat-no" title="function not covered" >({</span> user_key }) =&gt; <span class="cstat-no" title="statement not covered" >this.userPreferencesDao.updateUserPreferences(user_key, data))</span>
+      .then(<span class="fstat-no" title="function not covered" >updatedPreference </span>=&gt; (
+<span class="cstat-no" title="statement not covered" >        data.needs_contact_back &amp;&amp; this.userDao.getUserBy({ iduser })</span>
+          .then(<span class="fstat-no" title="function not covered" >({</span> email, first_name }) =&gt; <span class="cstat-no" title="statement not covered" >sendCallbackAutoReplyEmail({ email, first_name }))</span>,
+        updatedPreference
+      ))
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >sendInvitation = <span class="fstat-no" title="function not covered" >(i</span>nviter: Partial&lt;User&gt;, email: string) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userDao.getUserBy({ iduser: inviter.iduser })</span>
+      .then(<span class="fstat-no" title="function not covered" >inviter </span>=&gt; <span class="cstat-no" title="statement not covered" >inviter.email === formatEmail(email) ? Promise.reject({ message: 'NOT_ALLOWED', reason: 'Roommate can not be self' }) : inviter)</span>
+      .then(<span class="fstat-no" title="function not covered" >inviter </span>=&gt; <span class="cstat-no" title="statement not covered" >isUserCandidateOrTenant(inviter)</span>
+        ? Promise.reject({ message: 'NOT_ALLOWED', reason: `User ${inviter.iduser} has accepted offer or signed contract` }) : null)
+      .then(<span class="fstat-no" title="function not covered" >() =</span>&gt; <span class="cstat-no" title="statement not covered" >this.userDao.getUserBy({ email }))</span>
+      .then(<span class="fstat-no" title="function not covered" >invitee </span>=&gt; <span class="cstat-no" title="statement not covered" >!invitee ? Promise.reject({ message: 'NOT_FOUND', reason: 'User email does not exist' }) : invitee)</span>
+      .then(<span class="fstat-no" title="function not covered" >invitee </span>=&gt; <span class="cstat-no" title="statement not covered" >!invitee.is_test_complete</span>
+        ? Promise.reject({ message: 'NOT_ALLOWED', reason: `User ${invitee.iduser} has not completed test` }) : invitee)
+      .then(<span class="fstat-no" title="function not covered" >invitee </span>=&gt; <span class="cstat-no" title="statement not covered" >isUserCandidateOrTenant(invitee)</span>
+        ? Promise.reject({ message: 'NOT_ALLOWED', reason: `User ${invitee.iduser} has accepted offer or signed contract` }) : invitee)
+      .then(<span class="fstat-no" title="function not covered" >invitee </span>=&gt; <span class="cstat-no" title="statement not covered" >signShareRoomInvitation(inviter, invitee.iduser)</span>
+        .then(<span class="fstat-no" title="function not covered" >invitation_code </span>=&gt;
+<span class="cstat-no" title="statement not covered" >          emailAxiosPost('/mail/preferred-roommate-invitation', {</span>
+            inviter: {
+              img_url: inviter.img_url,
+              first_name: inviter.first_name,
+            },
+            invitee: {
+              email: invitee.email,
+              first_name: invitee.first_name,
+            },
+            link: `${process.env.COMMUNITY_FRONTEND}/preferred-roommate/${invitation_code}`,
+          }).then(<span class="fstat-no" title="function not covered" >() =</span>&gt; <span class="cstat-no" title="statement not covered" >this.userPreferredRoommatesDao.createUserPreferredRoommate(</span>
+            { inviter_id: inviter.iduser, invitee_id: invitee.iduser, invitation_code }
+          ))
+        )
+      )
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >replyInvitation = <span class="fstat-no" title="function not covered" >(d</span>ata: Partial&lt;UserPreferredRoommates&gt;) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userDao.getUserBy({ iduser: data.inviter_id })</span>
+      .then(<span class="fstat-no" title="function not covered" >inviter </span>=&gt; <span class="cstat-no" title="statement not covered" >isUserCandidateOrTenant(inviter)</span>
+        ? Promise.reject({ message: 'NOT_ALLOWED', reason: `User ${inviter.iduser} has accepted offer or signed contract` }) : null)
+      .then(<span class="fstat-no" title="function not covered" >() =</span>&gt; <span class="cstat-no" title="statement not covered" >this.userDao.getUserBy({ iduser: data.invitee_id })</span>
+        .then(<span class="fstat-no" title="function not covered" >invitee </span>=&gt; <span class="cstat-no" title="statement not covered" >isUserCandidateOrTenant(invitee)</span>
+          ? Promise.reject({ message: 'NOT_ALLOWED', reason: `User ${invitee.iduser} has accepted offer or signed contract` }) : null))
+      .then(<span class="fstat-no" title="function not covered" >() =</span>&gt; <span class="cstat-no" title="statement not covered" >this.transactionDao.acceptPreferredRommmateInvitation(data)</span>
+      )
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >deletePreferredRoommate = <span class="fstat-no" title="function not covered" >(i</span>d: number) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userPreferredRoommatesDao.deleteUserPreferredRoommate(id)</span>
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >getPreferredRoommate = <span class="fstat-no" title="function not covered" >(i</span>duser: string) =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    this.userPreferredRoommatesDao.getUserPreferredRoommates(iduser)</span>
+      .then(<span class="fstat-no" title="function not covered" >preferredRoommate </span>=&gt;
+<span class="cstat-no" title="statement not covered" >        !preferredRoommate ? Promise.reject({ message: 'NOT_FOUND', reason: `No roommate is found by iduser ${iduser}` }) : preferredRoommate)</span>
+&nbsp;
+  public <span class="cstat-no" title="statement not covered" >connectPreferredRoommate = <span class="fstat-no" title="function not covered" >(i</span>nviter_id: string, { email, first_name, last_name, client_id }: Partial&lt;User&gt;) =&gt;</span>
+    // check if user exists
+<span class="cstat-no" title="statement not covered" >    this.userDao.getUserBy({ email, is_verified: null })</span>
+      .then(<span class="fstat-no" title="function not covered" >user </span>=&gt; <span class="cstat-no" title="statement not covered" >!user ?</span>
+      // if user not exist, create a shadow user
+        User.generateUser({ client_id, email, first_name, last_name, tos_version_accepted: 0, iduser: uuid(), is_verified: false })
+          .then(this.transactionDao.createUserWithPreferencesAndProfiles)
+        : user)
+    // check if self
+      .then(<span class="fstat-no" title="function not covered" >user </span>=&gt; <span class="cstat-no" title="statement not covered" >user.iduser === inviter_id ? Promise.reject({ message: 'NOT_ALLOWED', reason: 'Roommate can not be self' }) : user)</span>
+    // check user type
+    // TODO should be user.user_type === USER_TYPE.CANDIDATE since if the user is already a tenant,
+    // we should allow him to get connected, leaving the rest of the checks to host then
+      .then(<span class="fstat-no" title="function not covered" >user </span>=&gt; <span class="cstat-no" title="statement not covered" >user.user_type !== USER_TYPE.LIGHT ? Promise.reject({ message: 'NOT_ALLOWED', reason: 'Roommate has already pending contract' }) : user)</span>
+      .then(<span class="fstat-no" title="function not covered" >({</span> iduser: invitee_id, user_key: invitee_user_key }) =&gt;
+      // pair 2 users and sync preference
+<span class="cstat-no" title="statement not covered" >        this.transactionDao.connectPreferredRoommate({ inviter_id, invitee_id }, invitee_user_key)</span>
+        // create the same offer for invitee
+          .then(<span class="fstat-no" title="function not covered" >() =</span>&gt; <span class="cstat-no" title="statement not covered" >this.offerDao.getOfferBy({ iduser: inviter_id, status: OFFER_STATUS.PENDING }))</span>
+          .then(<span class="fstat-no" title="function not covered" >offer </span>=&gt;
+<span class="cstat-no" title="statement not covered" >            offer &amp;&amp; Offer.generateOffer({</span>
+              iduser: invitee_id,
+              room_id: offer.room_id,
+              facade_id: offer.facade_id,
+              is_preferences_matched: offer.is_preferences_matched,
+            })
+              .then(this.offerDao.createOffer))
+      )
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Jun 07 2021 11:22:10 GMT+0200 (Central European Summer Time)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+<script src="../../../../block-navigation.js"></script>
+</body>
+</html>

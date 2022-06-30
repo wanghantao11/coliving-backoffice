@@ -1,0 +1,99 @@
+entity: Admin
+items:
+  admin1:
+    first_name: "Hantao"
+    last_name: "Wang"
+    email: "hantao@colive.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    type: "sys_admin"
+    role_id: "@role1"
+    client_id: "@client1"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth.appspot.com/o/images%2FDefaultProfileImage.png?alt=media&token=4454115e-1a34-401b-91d5-80d477e85e4b"
+    verified: true
+  admin2:
+    first_name: "Xiaowei"
+    last_name: "Xu"
+    email: "xiaowei@colive.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    type: "sys_admin"
+    role_id: "@role1"
+    client_id: "@client1"
+    language: "en"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth.appspot.com/o/images%2FDefaultProfileImage.png?alt=media&token=4454115e-1a34-401b-91d5-80d477e85e4b"
+    verified: true
+  admin3:
+    first_name: "Victoria"
+    last_name: "Pomesko"
+    email: "victoria@colive.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    type: "admin"
+    role_id: "@role2"
+    client_id: "@client2"
+    language: "en"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth.appspot.com/o/avatars%2F3_1573121365608.jpg?alt=media&token=fcf23ddb-e212-4606-9841-44c518ef8f59"
+    verified: true
+  admin4:
+    first_name: "Mikael"
+    last_name: "F"
+    email: "mikael@colive.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    type: "admin"
+    role_id: "@role2"
+    client_id: "@client2"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth-stage.appspot.com/o/images%2FDefaultProfileImage.png?alt=media&token=4454115e-1a34-401b-91d5-80d477e85e4b"
+    verified: true
+  admin5:
+    first_name: "Morgan"
+    last_name: "Soderkvist"
+    email: "morgan.soderkvist@blacklizzy.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    type: "admin"
+    role_id: "@role2"
+    client_id: "@client2"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth-stage.appspot.com/o/images%2FDefaultProfileImage.png?alt=media&token=4454115e-1a34-401b-91d5-80d477e85e4b"
+    verified: true
+  admin6:
+    first_name: "Alexandra"
+    last_name: "Änst"
+    email: "alexandra@colive.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    type: "admin"
+    role_id: "@role2"
+    client_id: "@client2"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth.appspot.com/o/campaign%2Fpersona2%2Fgarden-1.jpg?alt=media&token=286ae3bb-7f19-4875-88cd-c1ea7d1a9c85"
+    verified: true
+  admin{7..8}:
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    role_id: "@role3"
+    client_id: "@client2"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth.appspot.com/o/campaign%2Fpersona4%2Fanimal-3.jpg?alt=media&token=97866762-5b66-4821-bfa0-ff3c27c282ad"
+    verified: true
+  admin{9..10}:
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    role_id: "@role4"
+    client_id: "@client2"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth.appspot.com/o/campaign%2Fpersona4%2Fanimal-3.jpg?alt=media&token=97866762-5b66-4821-bfa0-ff3c27c282ad"
+    verified: true
+  admin{11..14}:
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    role_id: "@role5"
+    facade_ids: [1, 2, 3]
+    client_id: "@client2"
+    language: "sv"
+    img_url: "https://firebasestorage.googleapis.com/v0/b/colive-auth.appspot.com/o/campaign%2Fpersona1%2Fgeneric-4.jpg?alt=media&token=ea7450f9-ac22-4a54-8ec6-686e43711b9d"
+    verified: true

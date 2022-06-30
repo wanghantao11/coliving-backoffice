@@ -1,0 +1,24 @@
+entity: Interests
+items:
+  interests1:
+    value: "sports"
+  interests2:
+    value: "cooking"
+  interests3:
+    value: "reading"
+  interests4:
+    value: "watching_movies"
+  interests5:
+    value: "running"
+  interests6:
+    value: "yoga_and_meditation"
+  interests7:
+    value: "video_games"
+  interests8:
+    value: "entrepreneurship"
+  interests9:
+    value: "hiking"
+  interests10:
+    value: "climbing"
+  interests11:
+    value: "travelling"

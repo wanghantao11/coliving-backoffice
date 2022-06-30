@@ -1,0 +1,1 @@
+{"version":3,"file":"user.processor.js","sourceRoot":"","sources":["../../../fixtures/processors/user.processor.ts"],"names":[],"mappings":";;AAGA,MAAqB,aAAa;IAEzB,WAAW,CAAC,IAAY,EAAE,MAA8B;QAC7D,MAAM,CAAC,KAAK,GAAG,MAAM,CAAC,KAAK,CAAC,WAAW,EAAE,CAAA;QACzC,MAAM,CAAC,OAAO,GAAG,mKAAmK,CAAA;IACtL,CAAC;CACF;AAND,gCAMC"}

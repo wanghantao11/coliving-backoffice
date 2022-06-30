@@ -1,0 +1,10 @@
+entity: ProjectGallery
+items:
+  projectGallery1:
+    project_id: "@project1"
+    source: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth.appspot.com/o/accomodations%2F5c6743f5-2b47-40fe-87bb-340152cac229?alt=media&token=895b7ac7-97c7-4255-9657-c83ca7756641"
+    text: "Köksdel"
+  projectGallery2:
+    project_id: "@project2"
+    source: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth-stage.appspot.com/o/accomodations%2F39_1579089167123.jpg?alt=media&token=516ac2be-ed81-486d-a5a5-dc4ce165fc6d"
+    text: "Fotomontage över byggnaden U25"

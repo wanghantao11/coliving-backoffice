@@ -1,0 +1,6 @@
+entity: UserPreferredRoommates
+items:
+  user_preferred:roommates1:
+    inviter_id: "@user1"
+    invitee_id: "@user6"
+    status: "Rejected"

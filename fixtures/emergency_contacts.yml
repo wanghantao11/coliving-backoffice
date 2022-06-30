@@ -1,0 +1,17 @@
+entity: EmergencyContacts
+items:
+  emergency_contacts1:
+    iduser: "@user21"
+    name: "Kate Bell"
+    phone: "(555)567-342332"
+    relation: "sibling"
+  emergency_contacts2:
+    iduser: "@user21"
+    name: "Billy Jin"
+    phone: "(01)237-21121"
+    relation: "friend"
+  emergency_contacts3:
+    iduser: "@user22"
+    name: "Devin Howard"
+    phone: "(0046)7-242 424 24"
+    relation: "sibling"

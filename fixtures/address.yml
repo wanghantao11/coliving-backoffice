@@ -1,0 +1,23 @@
+entity: Address
+items:
+  address{1..5}:
+    facade_id: "@projectFacade1"
+    careof: "{{hacker.noun}}"
+    city: "{{address.city}}"
+    country: "{{address.country}}"
+    street: "{{address.streetAddress}}"
+    zip: "{{address.zipCode}}"
+  address{6..7}:
+    facade_id: "@projectFacade2"
+    careof: "{{hacker.noun}}"
+    city: "{{address.city}}"
+    country: "{{address.country}}"
+    street: "{{address.streetAddress}}"
+    zip: "{{address.zipCode}}"
+  address{8..10}:
+    facade_id: "@projectFacade3"
+    careof: "{{hacker.noun}}"
+    city: "{{address.city}}"
+    country: "{{address.country}}"
+    street: "{{address.streetAddress}}"
+    zip: "{{address.zipCode}}"

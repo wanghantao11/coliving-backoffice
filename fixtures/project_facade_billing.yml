@@ -1,0 +1,32 @@
+entity: ProjectFacadeBilling
+items:
+  projectFacadeBilling1:
+    facade_id: "@projectFacade1"
+    client_id: "@client2"
+    bankgiro_no: "123456"
+    rent_yearly_increase_rate: 3
+    rent_day_of_month: 2
+    service_fee_day_of_month: 2
+    deposit: 4000
+    deposit_refund_weeks: 2
+    rent_yearly_increase_date: "jan. 01"
+  projectFacadeBilling2:
+    facade_id: "@projectFacade2"
+    client_id: "@client2"
+    bankgiro_no: "123456"
+    rent_yearly_increase_rate: 3
+    rent_day_of_month: 24
+    service_fee_day_of_month: 25
+    deposit: 2000
+    deposit_refund_weeks: 3
+    rent_yearly_increase_date: "jan. 01"
+  projectFacadeBilling3:
+    facade_id: "@projectFacade3"
+    client_id: "@client2"
+    bankgiro_no: "123456"
+    rent_yearly_increase_rate: 5
+    rent_day_of_month: 24
+    service_fee_day_of_month: 25
+    deposit: 12000
+    deposit_refund_weeks: 5
+    rent_yearly_increase_date: "jan. 01"

@@ -1,0 +1,50 @@
+entity: Payment
+items:
+  payment1:
+    iduser: "@user21"
+    facade_id: "@projectFacade1"
+    amount: 11500
+    currency: "sek"
+    created_at: "2020-11-15 16:12:20"
+    status: "created"
+    rent: 5000
+  payment2:
+    iduser: "@user21"
+    facade_id: "@projectFacade1"
+    amount: 11500
+    currency: "sek"
+    created_at: "2020-10-15 16:12:20"
+    stripe_charge_id: "ch_1HouoBKgCOvWTbQiNqYnKbIL"
+    paid_at: "2020-10-30"
+    status: "succeeded"
+    rent: 5000
+  payment3:
+    iduser: "@user21"
+    facade_id: "@projectFacade1"
+    amount: 11500
+    currency: "sek"
+    created_at: "2020-09-15 16:12:20"
+    stripe_charge_id: "ch_1HouoBKgCOvWTbQiNqYnKbIL"
+    paid_at: "2020-09-29"
+    status: "succeeded"
+    rent: 5000
+  payment4:
+    iduser: "@user21"
+    facade_id: "@projectFacade1"
+    amount: 11500
+    currency: "sek"
+    created_at: "2020-08-15 16:12:20"
+    stripe_charge_id: "ch_1HouoBKgCOvWTbQiNqYnKbIL"
+    paid_at: "2020-08-27"
+    status: "succeeded"
+    rent: 5000
+  payment5:
+    iduser: "@user21"
+    facade_id: "@projectFacade1"
+    amount: 11500
+    currency: "sek"
+    created_at: "2020-07-15 16:12:20"
+    stripe_charge_id: "ch_1HouoBKgCOvWTbQiNqYnKbIL"
+    paid_at: "2020-07-24"
+    status: "succeeded"
+    rent: 5000

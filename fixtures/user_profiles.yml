@@ -1,0 +1,5 @@
+entity: UserProfiles
+items:
+  user_profiles{1..30}:
+    iduser: "@user($current)"
+    interest_ids: [3, 6, 8, 9]

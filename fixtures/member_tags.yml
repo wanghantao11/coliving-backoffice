@@ -1,0 +1,5 @@
+entity: MemberTags
+items:
+  member_tags{1..10}:
+    name: "{{random.word}}"
+    client_id: "@client2"

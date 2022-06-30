@@ -1,0 +1,22 @@
+entity: Role
+items:
+  role1:
+    client_id: "@client1"
+    name: "sys_admin"
+    scopes: [1]
+  role2:
+    client_id: "@client2"
+    name: "site_admin"
+    scopes: [1]
+  role3:
+    client_id: "@client2"
+    name: "project_manager"
+    scopes: [2,5,6,8,10,15,17,19]
+  role4:
+    client_id: "@client2"
+    name: "community_manager"
+    scopes: [3,4,7,8,10,15,16,18]
+  role5:
+    client_id: "@client2"
+    name: "host"
+    scopes: [3,9,10,15,20,21]

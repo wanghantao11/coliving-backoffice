@@ -1,0 +1,115 @@
+entity: User
+processor: ./processors/user.processor.ts
+items:
+  user1:
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Light"
+    first_name: "Subscribed1"
+    last_name: "{{name.lastName}}"
+    birthday: "1987-01-01"
+    email: "subscribed@test.com"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"
+  user2:
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Light"
+    first_name: "Xiaowei"
+    last_name: "Xu"
+    language: "en"
+    birthday: "1991-01-01"
+    email: "xiaowei@colive.se"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"
+  user{3..10}: # subscribed users, test complete
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Light"
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    birthday: "1991-01-01"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"
+  user11:
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Light"
+    first_name: "Light1"
+    last_name: "{{name.lastName}}"
+    language: "en"
+    birthday: "1993-01-01"
+    email: "light@test.com"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    phone: "{{random.number}}"
+  user{12..20}: # test not complete
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Light"
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    birthday: "1993-01-01"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    phone: "{{random.number}}"
+  user21:
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Tenant"
+    first_name: "Tenant1"
+    last_name: "{{name.lastName}}"
+    language: "en"
+    birthday: "1995-01-01"
+    email: "tenant@test.com"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    stripe_customer_id: "cus_IPsK4xjH5R0Ch2"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"
+  user{22..25}: #tenants
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Tenant"
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    birthday: "1995-01-01"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"
+  user26:
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Candidate"
+    first_name: "Candidate1"
+    last_name: "{{name.lastName}}"
+    language: "en"
+    birthday: "1997-01-01"
+    email: "candidate@test.com"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"
+  user{27..30}: #candidates
+    client_id: "@client2"
+    iduser: "{{random.uuid}}"
+    user_type: "Candidate"
+    first_name: "{{name.firstName}}"
+    last_name: "{{name.lastName}}"
+    language: "en"
+    birthday: "1997-01-01"
+    email: "{{internet.email}}"
+    password: "$2y$12$HLr6clsVO7Rvg/HtKPh68.9bsG/rUzgNc59KnuUmcjpMg1eWb3nRK"
+    tos_version_accepted: 1
+    is_test_complete: true
+    phone: "{{random.number}}"

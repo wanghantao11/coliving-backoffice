@@ -1,0 +1,23 @@
+entity: Client
+items:
+  client1:
+    org_no: "123456-1234"
+    name: "Administration"
+    phone: "{{phone.phoneNumberFormat}}"
+    email: "{{internet.email}}"
+    address: "{{address.streetAddress}}"
+    country: "Sweden"
+    city: "Stockholm"
+    zip: "11100"
+    type: "admin"
+  client2:
+    org_no: "334567-9876"
+    name: "Colive AB"
+    phone: "{{phone.phoneNumberFormat}}"
+    email: "noreply@colive.se"
+    address: "{{address.streetAddress}}"
+    country: "Sweden"
+    city: "Stockholm"
+    zip: "154 00"
+    stripe_account_id: "acct_1Hc5L1KgCOvWTbQi"
+    type: "default"

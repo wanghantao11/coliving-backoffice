@@ -1,0 +1,20 @@
+version: '3.2'
+services:
+  postgres:
+    restart: 'always'
+    ports:
+      - '5432:5432'
+    environment:
+      - "BACKOFFICE_DATABASE=colive_backoffice"
+      - "BACKOFFICE_DATABASE_TEST=colive_backoffice_test"
+      - "POSTGRES_USERNAME=postgres"
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
+    build: './localdb'
+
+  redis:
+    image: redis
+    container_name: offer_queue
+    ports:
+      - '6379:6379'
+    environment:
+      - "REDIS_URL=redis://127.0.0.1:6379"

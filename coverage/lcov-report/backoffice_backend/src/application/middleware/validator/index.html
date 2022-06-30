@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for backoffice_backend/src/application/middleware/validator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../index.html">All files</a> backoffice_backend/src/application/middleware/validator
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">58.53% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>508/868</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">15.22% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>35/230</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">17.59% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>38/216</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">49.45% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>269/544</span>
+      </div>
+    </div>
+    <p class="quiet">
+      Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+    </p>
+  </div>
+  <div class='status-line medium'></div>
+<div class="pad1">
+<table class="coverage-summary">
+<thead>
+<tr>
+   <th data-col="file" data-fmt="html" data-html="true" class="file">File</th>
+   <th data-col="pic" data-type="number" data-fmt="html" data-html="true" class="pic"></th>
+   <th data-col="statements" data-type="number" data-fmt="pct" class="pct">Statements</th>
+   <th data-col="statements_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="branches" data-type="number" data-fmt="pct" class="pct">Branches</th>
+   <th data-col="branches_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="functions" data-type="number" data-fmt="pct" class="pct">Functions</th>
+   <th data-col="functions_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="lines" data-type="number" data-fmt="pct" class="pct">Lines</th>
+   <th data-col="lines_raw" data-type="number" data-fmt="html" class="abs"></th>
+</tr>
+</thead>
+<tbody><tr>
+	<td class="file high" data-value="address.ts"><a href="address.ts.html">address.ts</a></td>
+	<td data-value="100" class="pic high"><div class="chart"><div class="cover-fill cover-full" style="width: 100%;"></div><div class="cover-empty" style="width:0%;"></div></div></td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="22" class="abs high">22/22</td>
+	<td data-value="83.33" class="pct high">83.33%</td>
+	<td data-value="6" class="abs high">5/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="6" class="abs high">6/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="15" class="abs high">15/15</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="admin.ts"><a href="admin.ts.html">admin.ts</a></td>
+	<td data-value="75.38" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 75%;"></div><div class="cover-empty" style="width:25%;"></div></div></td>
+	<td data-value="75.38" class="pct medium">75.38%</td>
+	<td data-value="65" class="abs medium">49/65</td>
+	<td data-value="31.25" class="pct low">31.25%</td>
+	<td data-value="16" class="abs low">5/16</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="16" class="abs medium">8/16</td>
+	<td data-value="67.57" class="pct medium">67.57%</td>
+	<td data-value="37" class="abs medium">25/37</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="admins.ts"><a href="admins.ts.html">admins.ts</a></td>
+	<td data-value="60" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 60%;"></div><div class="cover-empty" style="width:40%;"></div></div></td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="57.14" class="pct medium">57.14%</td>
+	<td data-value="7" class="abs medium">4/7</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="apartment.ts"><a href="apartment.ts.html">apartment.ts</a></td>
+	<td data-value="50" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 50%;"></div><div class="cover-empty" style="width:50%;"></div></div></td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="24" class="abs medium">12/24</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="40" class="pct low">40%</td>
+	<td data-value="15" class="abs low">6/15</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="application.ts"><a href="application.ts.html">application.ts</a></td>
+	<td data-value="66.67" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 66%;"></div><div class="cover-empty" style="width:34%;"></div></div></td>
+	<td data-value="66.67" class="pct medium">66.67%</td>
+	<td data-value="24" class="abs medium">16/24</td>
+	<td data-value="33.33" class="pct low">33.33%</td>
+	<td data-value="6" class="abs low">2/6</td>
+	<td data-value="33.33" class="pct low">33.33%</td>
+	<td data-value="6" class="abs low">2/6</td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="15" class="abs medium">9/15</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="contract.ts"><a href="contract.ts.html">contract.ts</a></td>
+	<td data-value="48.72" class="pic low"><div class="chart"><div class="cover-fill" style="width: 48%;"></div><div class="cover-empty" style="width:52%;"></div></div></td>
+	<td data-value="48.72" class="pct low">48.72%</td>
+	<td data-value="39" class="abs low">19/39</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="10" class="abs low">0/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="10" class="abs low">0/10</td>
+	<td data-value="37.5" class="pct low">37.5%</td>
+	<td data-value="24" class="abs low">9/24</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="contractTemplates.ts"><a href="contractTemplates.ts.html">contractTemplates.ts</a></td>
+	<td data-value="50" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 50%;"></div><div class="cover-empty" style="width:50%;"></div></div></td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="24" class="abs medium">12/24</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="40" class="pct low">40%</td>
+	<td data-value="15" class="abs low">6/15</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="emergencyContact.ts"><a href="emergencyContact.ts.html">emergencyContact.ts</a></td>
+	<td data-value="100" class="pic high"><div class="chart"><div class="cover-fill cover-full" style="width: 100%;"></div><div class="cover-empty" style="width:0%;"></div></div></td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="17" class="abs high">17/17</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="4" class="abs high">4/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="4" class="abs high">4/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="11" class="abs high">11/11</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="incidentReport.ts"><a href="incidentReport.ts.html">incidentReport.ts</a></td>
+	<td data-value="49.21" class="pic low"><div class="chart"><div class="cover-fill" style="width: 49%;"></div><div class="cover-empty" style="width:51%;"></div></div></td>
+	<td data-value="49.21" class="pct low">49.21%</td>
+	<td data-value="63" class="abs low">31/63</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="35.14" class="pct low">35.14%</td>
+	<td data-value="37" class="abs low">13/37</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="job.ts"><a href="job.ts.html">job.ts</a></td>
+	<td data-value="50" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 50%;"></div><div class="cover-empty" style="width:50%;"></div></div></td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="10" class="abs medium">5/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="37.5" class="pct low">37.5%</td>
+	<td data-value="8" class="abs low">3/8</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="label.ts"><a href="label.ts.html">label.ts</a></td>
+	<td data-value="52.94" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 52%;"></div><div class="cover-empty" style="width:48%;"></div></div></td>
+	<td data-value="52.94" class="pct medium">52.94%</td>
+	<td data-value="17" class="abs medium">9/17</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="45.45" class="pct low">45.45%</td>
+	<td data-value="11" class="abs low">5/11</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="member.ts"><a href="member.ts.html">member.ts</a></td>
+	<td data-value="73.91" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 73%;"></div><div class="cover-empty" style="width:27%;"></div></div></td>
+	<td data-value="73.91" class="pct medium">73.91%</td>
+	<td data-value="46" class="abs medium">34/46</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="8" class="abs low">2/8</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="8" class="abs low">2/8</td>
+	<td data-value="62.5" class="pct medium">62.5%</td>
+	<td data-value="24" class="abs medium">15/24</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="memberTags.ts"><a href="memberTags.ts.html">memberTags.ts</a></td>
+	<td data-value="52.94" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 52%;"></div><div class="cover-empty" style="width:48%;"></div></div></td>
+	<td data-value="52.94" class="pct medium">52.94%</td>
+	<td data-value="17" class="abs medium">9/17</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="45.45" class="pct low">45.45%</td>
+	<td data-value="11" class="abs low">5/11</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="members.ts"><a href="members.ts.html">members.ts</a></td>
+	<td data-value="50" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 50%;"></div><div class="cover-empty" style="width:50%;"></div></div></td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="24" class="abs medium">12/24</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="40" class="pct low">40%</td>
+	<td data-value="15" class="abs low">6/15</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="offer.ts"><a href="offer.ts.html">offer.ts</a></td>
+	<td data-value="43.14" class="pic low"><div class="chart"><div class="cover-fill" style="width: 43%;"></div><div class="cover-empty" style="width:57%;"></div></div></td>
+	<td data-value="43.14" class="pct low">43.14%</td>
+	<td data-value="51" class="abs low">22/51</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="30.3" class="pct low">30.3%</td>
+	<td data-value="33" class="abs low">10/33</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="oneflow.ts"><a href="oneflow.ts.html">oneflow.ts</a></td>
+	<td data-value="58.33" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 58%;"></div><div class="cover-empty" style="width:42%;"></div></div></td>
+	<td data-value="58.33" class="pct medium">58.33%</td>
+	<td data-value="12" class="abs medium">7/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="10" class="abs medium">5/10</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="payment.ts"><a href="payment.ts.html">payment.ts</a></td>
+	<td data-value="46.88" class="pic low"><div class="chart"><div class="cover-fill" style="width: 46%;"></div><div class="cover-empty" style="width:54%;"></div></div></td>
+	<td data-value="46.88" class="pct low">46.88%</td>
+	<td data-value="32" class="abs low">15/32</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">0/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="7" class="abs low">0/7</td>
+	<td data-value="33.33" class="pct low">33.33%</td>
+	<td data-value="21" class="abs low">7/21</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="project.ts"><a href="project.ts.html">project.ts</a></td>
+	<td data-value="38.24" class="pic low"><div class="chart"><div class="cover-fill" style="width: 38%;"></div><div class="cover-empty" style="width:62%;"></div></div></td>
+	<td data-value="38.24" class="pct low">38.24%</td>
+	<td data-value="68" class="abs low">26/68</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="26" class="abs low">0/26</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="21" class="abs low">0/21</td>
+	<td data-value="27.91" class="pct low">27.91%</td>
+	<td data-value="43" class="abs low">12/43</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="projectFacade.ts"><a href="projectFacade.ts.html">projectFacade.ts</a></td>
+	<td data-value="74.19" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 74%;"></div><div class="cover-empty" style="width:26%;"></div></div></td>
+	<td data-value="74.19" class="pct medium">74.19%</td>
+	<td data-value="31" class="abs medium">23/31</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="8" class="abs medium">4/8</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="8" class="abs medium">4/8</td>
+	<td data-value="68.42" class="pct medium">68.42%</td>
+	<td data-value="19" class="abs medium">13/19</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="projectGallery.ts"><a href="projectGallery.ts.html">projectGallery.ts</a></td>
+	<td data-value="52.94" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 52%;"></div><div class="cover-empty" style="width:48%;"></div></div></td>
+	<td data-value="52.94" class="pct medium">52.94%</td>
+	<td data-value="17" class="abs medium">9/17</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="45.45" class="pct low">45.45%</td>
+	<td data-value="11" class="abs low">5/11</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="projects.ts"><a href="projects.ts.html">projects.ts</a></td>
+	<td data-value="60" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 60%;"></div><div class="cover-empty" style="width:40%;"></div></div></td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="57.14" class="pct medium">57.14%</td>
+	<td data-value="7" class="abs medium">4/7</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="room.ts"><a href="room.ts.html">room.ts</a></td>
+	<td data-value="58.97" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 58%;"></div><div class="cover-empty" style="width:42%;"></div></div></td>
+	<td data-value="58.97" class="pct medium">58.97%</td>
+	<td data-value="39" class="abs medium">23/39</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="10" class="abs low">2/10</td>
+	<td data-value="20" class="pct low">20%</td>
+	<td data-value="10" class="abs low">2/10</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="24" class="abs medium">12/24</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="rooms.ts"><a href="rooms.ts.html">rooms.ts</a></td>
+	<td data-value="60" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 60%;"></div><div class="cover-empty" style="width:40%;"></div></div></td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="57.14" class="pct medium">57.14%</td>
+	<td data-value="7" class="abs medium">4/7</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="statistics.ts"><a href="statistics.ts.html">statistics.ts</a></td>
+	<td data-value="48.39" class="pic low"><div class="chart"><div class="cover-fill" style="width: 48%;"></div><div class="cover-empty" style="width:52%;"></div></div></td>
+	<td data-value="48.39" class="pct low">48.39%</td>
+	<td data-value="31" class="abs low">15/31</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">0/8</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">0/8</td>
+	<td data-value="36.84" class="pct low">36.84%</td>
+	<td data-value="19" class="abs low">7/19</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="tenant.ts"><a href="tenant.ts.html">tenant.ts</a></td>
+	<td data-value="66.67" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 66%;"></div><div class="cover-empty" style="width:34%;"></div></div></td>
+	<td data-value="66.67" class="pct medium">66.67%</td>
+	<td data-value="24" class="abs medium">16/24</td>
+	<td data-value="16.67" class="pct low">16.67%</td>
+	<td data-value="6" class="abs low">1/6</td>
+	<td data-value="33.33" class="pct low">33.33%</td>
+	<td data-value="6" class="abs low">2/6</td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="15" class="abs medium">9/15</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="typeform.ts"><a href="typeform.ts.html">typeform.ts</a></td>
+	<td data-value="100" class="pic high"><div class="chart"><div class="cover-fill cover-full" style="width: 100%;"></div><div class="cover-empty" style="width:0%;"></div></div></td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="14" class="abs high">14/14</td>
+	<td data-value="83.33" class="pct high">83.33%</td>
+	<td data-value="6" class="abs high">5/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="11" class="abs high">11/11</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="user.ts"><a href="user.ts.html">user.ts</a></td>
+	<td data-value="45.21" class="pic low"><div class="chart"><div class="cover-fill" style="width: 45%;"></div><div class="cover-empty" style="width:55%;"></div></div></td>
+	<td data-value="45.21" class="pct low">45.21%</td>
+	<td data-value="73" class="abs low">33/73</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="20" class="abs low">0/20</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="20" class="abs low">0/20</td>
+	<td data-value="30.23" class="pct low">30.23%</td>
+	<td data-value="43" class="abs low">13/43</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="userPreferences.ts"><a href="userPreferences.ts.html">userPreferences.ts</a></td>
+	<td data-value="60" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 60%;"></div><div class="cover-empty" style="width:40%;"></div></div></td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="57.14" class="pct medium">57.14%</td>
+	<td data-value="7" class="abs medium">4/7</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="userPreferredRoommates.ts"><a href="userPreferredRoommates.ts.html">userPreferredRoommates.ts</a></td>
+	<td data-value="82.35" class="pic high"><div class="chart"><div class="cover-fill" style="width: 82%;"></div><div class="cover-empty" style="width:18%;"></div></div></td>
+	<td data-value="82.35" class="pct high">82.35%</td>
+	<td data-value="34" class="abs high">28/34</td>
+	<td data-value="62.5" class="pct medium">62.5%</td>
+	<td data-value="8" class="abs medium">5/8</td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="77.27" class="pct medium">77.27%</td>
+	<td data-value="22" class="abs medium">17/22</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="userProfiles.ts"><a href="userProfiles.ts.html">userProfiles.ts</a></td>
+	<td data-value="60" class="pic medium"><div class="chart"><div class="cover-fill" style="width: 60%;"></div><div class="cover-empty" style="width:40%;"></div></div></td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="57.14" class="pct medium">57.14%</td>
+	<td data-value="7" class="abs medium">4/7</td>
+	</tr>
+
+</tbody>
+</table>
+</div><div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Jun 07 2021 11:22:10 GMT+0200 (Central European Summer Time)
+</div>
+</div>
+<script src="../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../sorter.js"></script>
+<script src="../../../../../block-navigation.js"></script>
+</body>
+</html>

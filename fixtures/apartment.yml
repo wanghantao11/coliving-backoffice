@@ -1,0 +1,68 @@
+entity: Apartment
+items:
+  apartment1:
+    facade_id: "@projectFacade1"
+    name: "Lab apartment"
+  apartment2:
+    facade_id: "@projectFacade1"
+    name: "Lab apartment2"
+  apartment3:
+    facade_id: "@projectFacade2"
+    name: "Lgh 026-00065, våning 8"
+  apartment4:
+    facade_id: "@projectFacade2"
+    name: "Lgh 026-00070, våning 9"
+  apartment5:
+    facade_id: "@projectFacade2"
+    name: "Lgh 026-00074, våning 10"
+  apartment6:
+    facade_id: "@projectFacade3"
+    name: "13"
+  apartment7:
+    facade_id: "@projectFacade3"
+    name: "21"
+  apartment8:
+    facade_id: "@projectFacade3"
+    name: "22"
+  apartment9:
+    facade_id: "@projectFacade3"
+    name: "31"
+  apartment10:
+    facade_id: "@projectFacade3"
+    name: "32"
+  apartment11:
+    facade_id: "@projectFacade3"
+    name: "41"
+  apartment12:
+    facade_id: "@projectFacade3"
+    name: "42"
+  apartment13:
+    facade_id: "@projectFacade3"
+    name: "51"
+  apartment14:
+    facade_id: "@projectFacade3"
+    name: "52"
+  apartment15:
+    facade_id: "@projectFacade3"
+    name: "61"
+  apartment16:
+    facade_id: "@projectFacade3"
+    name: "62"
+  apartment17:
+    facade_id: "@projectFacade3"
+    name: "71"
+  apartment18:
+    facade_id: "@projectFacade3"
+    name: "72"
+  apartment19:
+    facade_id: "@projectFacade3"
+    name: "81"
+  apartment20:
+    facade_id: "@projectFacade3"
+    name: "82"
+  apartment21:
+    facade_id: "@projectFacade3"
+    name: "91"
+  apartment22:
+    facade_id: "@projectFacade3"
+    name: "92"

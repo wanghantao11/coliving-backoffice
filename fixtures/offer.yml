@@ -1,0 +1,56 @@
+entity: Offer
+items:
+  offer1:
+    iduser: "@user26"
+    room_id: "@room1"
+    facade_id: "@projectFacade1"
+    status: "Accepted"
+    is_preferences_matched: false
+  offer2:
+    iduser: "@user27"
+    room_id: "@room2"
+    facade_id: "@projectFacade1"
+    status: "Accepted"
+    is_preferences_matched: false
+  offer3:
+    iduser: "@user28"
+    room_id: "@room3"
+    facade_id: "@projectFacade1"
+    status: "Accepted"
+    is_preferences_matched: false
+  offer4:
+    iduser: "@user29"
+    room_id: "@room4"
+    facade_id: "@projectFacade1"
+    status: "Accepted"
+    is_preferences_matched: false
+  offer5:
+    iduser: "@user30"
+    room_id: "@room5"
+    facade_id: "@projectFacade1"
+    status: "Accepted"
+    is_preferences_matched: false
+  offer6:
+    iduser: "@user26"
+    room_id: "@room2"
+    facade_id: "@projectFacade1"
+    status: "Rejected"
+    is_preferences_matched: false
+  offer7:
+    iduser: "@user3"
+    room_id: "@room11"
+    facade_id: "@projectFacade1"
+    status: "Pending"
+    is_preferences_matched: false
+  offer8:
+    iduser: "@user4"
+    room_id: "@room12"
+    facade_id: "@projectFacade1"
+    status: "Pending"
+    is_preferences_matched: false
+  offer9:
+    iduser: "@user5"
+    room_id: "@room13"
+    facade_id: "@projectFacade1"
+    status: "Pending"
+    is_preferences_matched: false

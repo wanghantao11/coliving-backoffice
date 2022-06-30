@@ -1,0 +1,150 @@
+entity: Project
+items:
+  project1:
+    client_id: 2
+    facade_id: "@projectFacade1"
+    name: "Colive Lab"
+    is_published: true
+    apartments: 1
+    cover_image_source: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth.appspot.com/o/accomodations%2Ffff67b9a-9dc3-4deb-bf54-3f9ab5a9febb?alt=media&token=590cc2ea-782d-44e4-8ec4-bfddb084fd1d"
+    cover_image_text: "Vardagsrum med matplats och soffhörna"
+    distance_to_public_transport: "100m-500m"
+    key_features: "{roof-terrace,central-location}"
+    community_features: "{roof-terrace,central-location,wifi,cleaning-included,laundry-room,elevator,dishwasher}"
+    room_features: "{single-room,double-room,shared-bath}"
+    move_in_date: "2019-05-01"
+    published_at: "2019-07-04 09:21:46.101"
+    room_rent_from: 6000
+    room_rent_to: 9000
+    room_size_from: 7
+    room_size_to: 17
+    roomies_from: 11
+    roomies_to: 12
+    shared_area_size_from: 150
+    shared_area_size_to: 150
+    service_fee: 2030
+    status: "last-chance"
+    city: "Stockholm"
+    country: "Sweden"
+    street: "Nytorgsgatan 44"
+    zip: "116 40"
+    about_project: "VÄLKOMMEN TILL COLIVE LAB
+COLIVE LAB är vår första coliving-lägenhet som slog upp portarna våren 2019 efter en genomgående totalrenovering. Denna takvåning med dubbla terrasser är belägen i en 1930-talsfastighet invid Nytorget på Södermalm och har elva privata rum och plats för tolv colivers. 
+I COLIVE LAB låter vi testa och utvärdera coliving-lösningar både vad gäller hårdvarukoncept och ”community”-aspekter. Du som flyttar in här ska vara öppen för att löpande vara med och utvärdera din boendeupplevelse. Detta görs genom att besvara enkäter ett par gånger i månaden samt ställa upp på intervjuer och eventuella fotograferingar då och då."
+    about_location: "COLIVE LAB ligger mitt på Södermalm, ett stenkast från Nytorget med dess folkliv, restauranger, caféer och barer. Flera mataffärer, apotek och systembolag ligger inom gångavstånd. Närmaste T-bana är Medborgarplatsen och flera busslinjer går i närheten, bl.a. busslinje 2, 3, 53 och 76."
+    about_other_info: "LÄGENHETEN
+COLIVE LAB består av 11 privata bostadsrum, varav ett av dessa kan hyras som dubbelrum. 
+De privata rummen är delvis möblerade, vilket innebär att det finns säng och god förvaring men samtidigt plats för dig som hyresgäst att sätta en personlig prägel på rummet.
+Badrummen delas av max 3 personer och är försedda med personliga badrumsskåp och krokar. Badrummen är helkaklade i olika kulörer och har en mycket god standard. 
+Gemensamma utrymmen består av ett stort kök med dubbla spisar, diskmaskiner och diskhoar, matplats, soffhörna, fåtöljhörna och två terrasser i bästa läge. 
+Generell standard är av god och modern kvalitet med genomgående parkettgolv och väggar målade i vitt. Köket går i en behaglig ljusgrå kulör med rostfria detaljer och vitvaror. Alla Colives lägenheter har diskmaskin. 
+De gemensamma ytorna är fullt möblerade, från möbler till bestick för att det ska vara smidigt och enkelt att flytta in. 
+
+
+GEMENSAMMA TILLGÅNGAR 
+Tvättstugan finns i husets källare och delas av alla i fastigheten (även de som inte bor i COLIVE), men det är enkelt att boka en tvättid som passar dig."
+  project2:
+    client_id: 2
+    facade_id: "@projectFacade2"
+    name: "Colive U25"
+    is_published: true
+    apartments: 3
+    cover_image_source: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth.appspot.com/o/accomodations%2F49cac6a8-8ce9-4346-be5a-4561a53fb4e4?alt=media&token=608a4fec-aef3-4886-af24-3ca898119e81"
+    cover_image_text: "Gemensam matplats och vardagsrum i delningslägenhet"
+    distance_to_public_transport: "100m-500m"
+    floor_map_source: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth-stage.appspot.com/o/accomodations%2F39_1579797119422.jpg?alt=media&token=3028646c-9139-4d13-ab1f-19f504aaa964"
+    floor_map_text: "Delningslägenhet - Konceptuell ritning över lägenhet"
+    key_features: "{balcony-terrace,nearby-water}"
+    community_features: "{balcony-terrace,nearby-water}"
+    third_party_services: "{car-parking}"
+    move_in_date: "2019-10-17"
+    room_features: "{single-room,shared-bath,shared-toilet}"
+    published_at: "2019-08-01 20:20:20"
+    room_rent_from: 5236
+    room_rent_to: 5609
+    room_size_from: 7
+    room_size_to: 17
+    roomies_from: 4
+    roomies_to: 4
+    service_fee: 2244
+    shared_area_size_from: 60
+    shared_area_size_to: 60
+    status: "occupied"
+    city: "Stockholm"
+    country: "Sweden"
+    street: "Agavägen 40"
+    zip: "181 39"
+    about_project: "VÄLKOMMEN TILL COLIVE U25
+COLIVE U25 är en coliving-hubb för dig som är mellan 18 - 25 år. Huset är beläget i Larsberg på Lidingö, som en del i John Mattsons nyproducerade bostadshus U25 som riktar sig till unga vuxna. I huset finns utöver COLIVEs lägenheter ytterligare ett sjuttiotal små lägenheter. Gemensamt krav för dig som flyttar in här är att du skall vara mellan 18 - 25 år gammal och det är tillåtet att bo kvar i maximalt fyra år."
+    about_location: "Från Larsbergs Station tar det 6 minuter med Lidingöbanan till Ropsten där tunnelbanans röda linje ansluter. Det är möjligt att ta flera busslinjer till Lidingö Centrum samt andra delar av ön. Från närliggande Dalénums brygga går dessutom pendlingsbåtar till Nacka, Saltsjöqvarn, Djurgården och Nybroviken.
+
+Larsberg är ett lokalt centrum där du finner en stor ICA-butik, café, pizzeria, bank, apotek, blomsterhandel och gym. Larsbergsparken ligger i nära anslutning till U25 med utegym, grillplatser, fotbollsplan mm. I området finns också vattennära promenadvägar och goda cykelförbindelser hela vägen in till stan."
+    about_other_info: "LÄGENHETEN
+Varje coliving-lägenhet på U25 består av 4 privata rum.
+De privata rummen är delvis möblerade, vilket innebär att det finns säng och god förvaring men samtidigt plats för dig som hyresgäst att sätta en personlig prägel på rummet.
+Badrummen delas av 2 personer och är försedda med personliga badrumsskåp och krokar. Badrummen är helkaklade med en god nyproducerad standard. 
+Gemensamma utrymmen består av matplats, vardagsrum, kök och en balkong i sydväst. 
+De gemensamma ytorna är fullt möblerade, från möbler till bestick, för att det ska vara smidigt och enkelt att flytta in. 
+Standarden är av god och modern kvalitet med genomgående parkett och väggar i en varmt vit kulör. Även köken utgörs av en behaglig naturvit kulör.
+Alla Colives lägenheter har diskmaskin. 
+
+
+GEMENSAMMA TILLGÅNGAR 
+Gemensam takterrass samt en gård med sittplatser och cykelparkering samt laddstation för el-cykel.
+Tvätt-lounge med flera tvätt-pelare finns på plan 1 och delas av alla i hubben. 
+Lägenhetsgemensamma förråd i källarplan.
+Hela coliving-hubben är uppkopplad med bredband från Telenor och wi-fi med god signal ingår i alla coliving-lägenheter."
+  project3:
+    client_id: 2
+    facade_id: "@projectFacade3"
+    name: "Parkstråket"
+    is_published: true
+    apartments: 17
+    cover_image_source: "https://firebasestorage.googleapis.com/v0/b/colive-back-office-auth-stage.appspot.com/o/accomodations%2F40_1579527058752.jpg?alt=media&token=5e686f53-0fa4-4e90-a5bf-21241a9eed1c"
+    cover_image_text: ""
+    distance_to_public_transport: "100m-500m"
+    key_features: "{lounge-area,outdoor-space}"
+    community_features: "{lounge-area,outdoor-space}"
+    room_features: "{private-balcony,single-room,double-room,shared-bath,shared-toilet}"
+    third_party_services: "{guest-apartment}"
+    move_in_date: "2020-11-15"
+    published_at: "2020-01-14 20:20:20"
+    room_rent_from: 4619
+    room_rent_to: 7529
+    room_size_from: 6
+    room_size_to: 16
+    roomies_from: 5
+    roomies_to: 6
+    service_fee: 2300
+    shared_area_size_from: 60
+    shared_area_size_to: 90
+    status: "available-now"
+    city: "Stockholm"
+    country: "Sweden"
+    street: "Örnens väg"
+    zip: "136 37"
+    about_project: "VÄLKOMMEN TILL PARKSTRÅKET
+COLIVE Parkstråket – Sveriges största och första coliving-hubb – rymmer 17 colivinglägenheter och ger hem åt ca 100 hyresgäster. Som i alla Colives hubbar har du ditt privata rum i en delad lägenhet, dessutom får du tillgång till ett helt våningsplan med gemensamhetsytor – Klubben. 
+På Parkstråket bor du centralt i Haninge, nära centrum och Handens pendeltågsstation med 23 minuter till Stockholms centralstation. Från Handenterminalen går dessutom flertalet busslinjer."
+    about_location: "I din närhet finns naturreservatet och friluftsområdet Rudan. Här badar du, bastar, vandrar, joggar och cyklar mountainbike – eller tränar på utegymmet. Platsen erbjuder även unika tillgångar såsom ett av Stockholms främsta konstsnöspår för längdskidåkning, och garanterad fiskelycka i sjön där kommunen planterar in 1,5 ton ädelfisk varje år. Från Parkstråket är det även promenadavstånd till Haninge centrum som erbjuder ett stort utbud av aktiviteter och shopping. Centrumet består av ca 85 butiker och restauranger samt kulturhus och bibliotek."
+    about_other_info: "LÄGENHET
+Varje coliving-lägenhet på Parkstråket består av 5-6 privata rum, varav vissa rum kan hyras som dubbelrum. 
+De privata rummen är delvis möblerade, vilket innebär att det finns säng och god förvaring men samtidigt plats för dig som hyresgäst att sätta en personlig prägel på rummet.
+Badrummen delas av max 3 personer och är försedda med personliga badrumsskåp och krokar. Badrummen är helkaklade med en god nyproducerad standard. 
+Gemensamma utrymmen består av matplats, vardagsrum, kök och i vissa fall även balkong. 
+De gemensamma ytorna är fullt möblerade, från möbler till bestick, för att det ska vara smidigt och enkelt att flytta in. 
+Standarden är av god och modern kvalitet med genomgående parkett, väggar i en varmt ljusgrå kulör och fönsterbänkar i vit Carraramarmor. Köken utgörs av en behaglig naturvit kulör med rostfria detaljer och vitvaror. Alla Colives lägenheter har diskmaskin. 
+
+
+GEMENSAMMA TILLGÅNGAR 
+Klubben – en generös gemensamhetsyta på plan 1 som erbjuder loungeplatser, arbetsplatser och möjlighet till gemensamma filmkvällar och måltider. En sydväst-vänd uteplats finns även i anslutning till Klubben.
+Fullt utrustad övernattningslägenhet till uthyrning för besökande gäster. ( Ligger i anslutning till Klubben.)
+Hela coliving-hubben är uppkopplad med bredband från Telenor och wi-fi med god signal ingår i alla coliving-lägenheter. Den ”gemensamma loungen” är uppkopplad till ett separat smart wi-fi.
+Invändigt cykelförråd
+Tvättlounge med flera tvättpelare finns på plan 1 och delas av alla i hubben.
+Ytterligare områdesgemensam uteplats på gården med sittplatser samt grillplats för alla grannar i området. 
+Extra förrådsutrymme finns att hyra
+
+
+RÖKNING
+Eftersom vi vill erbjuda våra hyresgäster ett hälsosamt boende och en rökfri boendemiljö har vi rökförbud i alla Colives hubbar. I COLIVE Parkstråket innefattas även balkonger, gård och uteplats av rökförbudet."

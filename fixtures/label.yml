@@ -1,0 +1,11 @@
+entity: Label
+items:
+  Label{1..5}:
+    name: "{{random.word}}"
+    facade_id: "@projectFacade1"
+  Label{6..10}:
+    name: "{{random.word}}"
+    facade_id: "@projectFacade2"
+  Label{11..12}:
+    name: "{{random.word}}"
+    facade_id: "@projectFacade3"

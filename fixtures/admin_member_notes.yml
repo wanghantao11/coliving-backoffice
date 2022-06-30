@@ -1,0 +1,6 @@
+entity: AdminMemberNotes
+items:
+  admin_member_notes{1..10}:
+    iduser: "@user($current)"
+    description: "{{lorem.sentence}}"
+    tag_ids: [1, 2, 3]

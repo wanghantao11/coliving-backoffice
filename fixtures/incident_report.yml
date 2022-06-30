@@ -1,0 +1,61 @@
+entity: IncidentReport
+items:
+  incidentReport1:
+    category: "property"
+    client_id: "@client2"
+    estimated_done_date: "2020-09-31 14:37:00"
+    facade_id: "@projectFacade1"
+    description: "The window of the living room is broken. Needs immediate fix"
+    location: "my_apartment"
+    owner_comment: "The carpenter has been contact and will come to check the window 23 July"
+    owner_id: "@admin3"
+    photos: []
+    priority: "EMERGENCY"
+    reporter_id: 1
+    subcategory: "infrastructure"
+    status: "In_progress"
+    title: "Broken window"
+  incidentReport2:
+    category: "community"
+    client_id: "@client2"
+    facade_id: "@projectFacade1"
+    description: "They have been fighting with each other quite often and break several furnitures"
+    is_private: true
+    owner_id: "@admin3"
+    photos: []
+    priority: "HIGH"
+    reporter_id: 1
+    subcategory: "conflict"
+    title: "Fights between Jonas and Katarina"
+  incidentReport3:
+    category: "property"
+    client_id: "@client2"
+    closed_at: "2020-07-11 15:22:00"
+    facade_id: "@projectFacade1"
+    description: "No Internet connect in room 2"
+    feedback: "Thanks. Now it works!"
+    is_private: true
+    location: "building"
+    owner_id: "@admin3"
+    photos: []
+    priority: "NORMAL"
+    reporter_id: 1
+    satisfaction_level: "HIGH"
+    status: "Closed"
+    subcategory: "other"
+    title: "Wifi doesn't work in room 2"
+  incidentReport4:
+    category: "property"
+    client_id: "@client2"
+    facade_id: "@projectFacade1"
+    decline_reason: "It is correct. No cafe table is included for this apartment."
+    description: "No cafe table in the living room"
+    is_private: true
+    location: "my_apartment"
+    owner_id: "@admin3"
+    photos: []
+    priority: "NORMAL"
+    reporter_id: 1
+    status: "Declined"
+    subcategory: "furniture"
+    title: "Missing cafe table"

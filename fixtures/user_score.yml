@@ -1,0 +1,7 @@
+entity: UserScore
+processor: ./processors/user_score.processor.ts
+items:
+  user_score{1..10}:
+    iduser: "@user($current)"
+  user_score{11..20}:
+    iduser: "@user($current+10)"

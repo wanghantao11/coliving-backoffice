@@ -1,0 +1,44 @@
+entity: ContractTemplates
+items:
+  contractTemplates1:
+    facade_id: "@projectFacade1"
+    client_id: "@client2"
+    collection_id: 401429
+    extra_fields: {
+      "lost_key_fee": "1234",
+      "kwh_el_month": "33",
+      "kwh_heating_month": "4",
+      "kbm_water_month": "6",
+      "indicate_move_in_date": "2",
+      "indicate_move_in_span": "3",
+      "perc_normal_consumption": "7",
+      "termination_notice": "12"
+    }
+  contractTemplates2:
+    facade_id: "@projectFacade2"
+    client_id: "@client2"
+    collection_id: 401429
+    extra_fields: {
+      "lost_key_fee": "1234",
+      "kwh_el_month": "33",
+      "kwh_heating_month": "4",
+      "kbm_water_month": "6",
+      "indicate_move_in_date": "2",
+      "indicate_move_in_span": "3",
+      "perc_normal_consumption": "7",
+      "termination_notice": "12"
+    }
+  contractTemplates3:
+    facade_id: "@projectFacade3"
+    client_id: "@client2"
+    collection_id: 401082
+    extra_fields: {
+      "lost_key_fee": "1234",
+      "kwh_el_month": "33",
+      "kwh_heating_month": "4",
+      "kbm_water_month": "6",
+      "indicate_move_in_date": "2",
+      "indicate_move_in_span": "3",
+      "perc_normal_consumption": "7",
+      "termination_notice": "12"
+    }

@@ -1,0 +1,8 @@
+entity: UserPreferences
+items:
+  user_preferences{1..30}:
+    iduser: "@user($current)"
+    has_private_bathroom: "{{random.boolean}}"
+    has_private_toilet: "{{random.boolean}}"
+    is_suitable_for_disability: "{{random.boolean}}"
+    needs_contact_back: "{{random.boolean}}"

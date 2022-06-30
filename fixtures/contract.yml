@@ -1,0 +1,82 @@
+entity: Contract
+items:
+  contract1:
+    iduser: "@user21"
+    room_id: "@room6"
+    facade_id: "@projectFacade1"
+    external_id: 1299652
+    external_participant_id: 2750082
+    start_date: "2020-07-24"
+    status: "Active"
+  contract2:
+    iduser: "@user22"
+    room_id: "@room7"
+    facade_id: "@projectFacade1"
+    external_id: 1299652
+    external_participant_id: 2750082
+    start_date: "2021-04-01"
+    status: "Active"
+  contract3:
+    iduser: "@user23"
+    room_id: "@room8"
+    facade_id: "@projectFacade1"
+    external_id: 1299652
+    external_participant_id: 2750082
+    start_date: "2020-07-24"
+    status: "Active"
+  contract4:
+    iduser: "@user24"
+    room_id: "@room9"
+    facade_id: "@projectFacade1"
+    external_id: 1236404
+    external_participant_id: 2601392
+    start_date: "2020-07-24"
+    status: "Active"
+  contract5:
+    iduser: "@user25"
+    facade_id: "@projectFacade1"
+    room_id: "@room10"
+    external_id: 1236404
+    external_participant_id: 2601392
+    start_date: "2020-07-24"
+    status: "Active"
+  contract6:
+    iduser: "@user26"
+    room_id: "@room1"
+    facade_id: "@projectFacade1"
+    external_id: 1277960
+    external_participant_id: 2698028
+    start_date: "2020-12-01"
+    status: "Pending"
+  contract7:
+    iduser: "@user27"
+    room_id: "@room2"
+    facade_id: "@projectFacade1"
+    external_id: 1277960
+    external_participant_id: 2698028
+    start_date: "2021-07-15"
+    status: "Pending"
+  contract8:
+    iduser: "@user28"
+    room_id: "@room3"
+    facade_id: "@projectFacade1"
+    external_id: 1277960
+    external_participant_id: 2698028
+    start_date: "2021-06-01"
+    status: "Pending"
+  contract9:
+    iduser: "@user29"
+    room_id: "@room4"
+    facade_id: "@projectFacade1"
+    external_id: 1277960
+    external_participant_id: 2698028
+    start_date: "2021-07-01"
+    status: "Pending"
+  contract10:
+    iduser: "@user30"
+    room_id: "@room5"
+    facade_id: "@projectFacade1"
+    external_id: 1277960
+    external_participant_id: 2698028
+    start_date: "2021-09-01"
+    status: "Pending"

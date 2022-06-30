@@ -1,0 +1,44 @@
+entity: Scope
+items:
+  scope1:
+    value: "*"
+  scope2:
+    value: "accomodation:*"
+  scope3:
+    value: "accomodation:get"
+  scope4:
+    value: "application:*"
+  scope5:
+    value: "application:get"
+  scope6:
+    value: "room:*"
+  scope7:
+    value: "room:get"
+  scope8:
+    value: "contract:*"
+  scope9:
+    value: "contract:get"
+  scope10:
+    value: "admin:*"
+  scope11:
+    value: "admin:get"
+  scope12:
+    value: "client:*"
+  scope13:
+    value: "client:get"
+  scope14:
+    value: "role:*"
+  scope15:
+    value: "role:get"
+  scope16:
+    value: "newsletter:*"
+  scope17:
+    value: "newsletter:get"
+  scope18:
+    value: "user:*"
+  scope19:
+    value: "user:get"
+  scope20:
+    value: "incident:*"
+  scope21:
+    value: "incident:get"
