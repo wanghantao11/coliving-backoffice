@@ -1,6 +1,6 @@
 # Backoffice_backend
 
-Monolith of the Colive backend services.
+Coliving backoffice service.
 
 ## Dependencies
 
