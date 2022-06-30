@@ -1,4 +1,4 @@
-# Backoffice_backend
+# Coliving-backoffice
 
 Coliving backoffice service.
 
